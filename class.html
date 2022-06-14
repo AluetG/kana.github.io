@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>html form</title>
+<script>
+    function myFunction(){
+        Window.print();
+    }
+</script>
+</head>
+<body style ="bacground-color:lightgrey">
+<fieldset>
+<legend>Personal information:</legend>
+<form action="someone@example.com"method="Get">
+<label>Name:</label><br>
+<input type="text" name="firstname"><br>
+<label>Email</label><br>
+<input type="email" name="email"><br>
+<label>Gender:</label><br>
+<input type="radio" name="sex" value="male" ><label>Male</label><br>
+<input type="radio" name="sex" value="female" checked>female</label><br>
+<label> country:</label><br>
+<select name="cars">
+<option value="1">USA</option>
+<option value="2">JAPAN</option>
+<option value="3" selected>SOUTH SUDAN</option>
+<option value="4">SUDAN</option>
+</select><br>
+<label>Comment:</label><br>
+<textarea name="message"rows="10"cols="30">please enter your comment here...</textarea><br>
+<input type="checkbox"name="i"value="ok">
+<label>I agree all above data is correct!!</label><br>
+<input type="submit" value="print">
+<input type="reset" value="clear data">
+</form>
+</fieldset>
+</body>
+</html>
